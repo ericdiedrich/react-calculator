@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+}
+.calculator{
+  padding: 150px;
+  /* border-color: black;
+  border-style: solid; */
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+}
+.display{
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  height: 60px;
+  padding: 30px;
+  
+  justify-content: flex-end;
+  display: flex;
+  font-size: 30px;
+}
+.row1, .row2, .row3, .row4, .row5 {
+  /* border-color: green; */
+  /* border-style: solid; */
+  display: flex;
+}
+
+.button{
+  /* border: solid; */
+  border-color: red;
+  width: 25%;
+  font-size: 30px;
+  padding: 20px;
+  border-color: black;
+  background-color: lightgray;
+}
+.clear{
+  width: 75%;
+}
+.functionKey{
+  color: white;
+  background-color: rgb(255, 145, 0);
+}
+.zero{
+  width: 50%;
+}
